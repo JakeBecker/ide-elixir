@@ -3,8 +3,8 @@
 
 
 atom-languageclient@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.6.4.tgz#682079862827f29fb321cc28c8775439f61754a2"
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.6.5.tgz#760cb2e036d71ea85090ac123d5fc6c829fd4649"
   dependencies:
     vscode-jsonrpc "^3.3.1"
 

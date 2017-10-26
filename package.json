@@ -73,6 +73,6 @@
     }
   },
   "scripts": {
-    "prepare": "./build.sh"
+    "prepare": "cd elixir-ls && mix deps.get && mix release -o ../elixir-ls-release"
   }
 }
