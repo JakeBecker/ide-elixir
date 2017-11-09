@@ -3,11 +3,11 @@
 
 
 atom-languageclient@^0.6.4:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.6.5.tgz#760cb2e036d71ea85090ac123d5fc6c829fd4649"
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.6.7.tgz#d189c7f5c4cb225c02ebb177bf9e8dbf32a25af5"
   dependencies:
-    vscode-jsonrpc "^3.3.1"
+    vscode-jsonrpc "^3.4.1"
 
-vscode-jsonrpc@^3.3.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/vscode-jsonrpc/-/vscode-jsonrpc-3.4.1.tgz#e2e0b9e121f71a2b5448058a34a3aef8376a5e91"
+vscode-jsonrpc@^3.4.1:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/vscode-jsonrpc/-/vscode-jsonrpc-3.5.0.tgz#87239d9e166b2d7352245b8a813597804c1d63aa"
