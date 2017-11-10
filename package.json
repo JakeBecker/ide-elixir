@@ -1,7 +1,7 @@
 {
   "name": "ide-elixir",
   "main": "./lib/ide-elixir",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom IDE plugin for Elixir, powered by ElixirLS",
   "keywords": [],
   "repository": "https://github.com/JakeBecker/ide-elixir",
@@ -18,8 +18,7 @@
         "description": "Run ElixirLS's rapid Dialyzer when code is saved"
       },
       "elixirLS.dialyzerWarnOpts": {
-        "description":
-          "Dialyzer options to enable or disable warnings. See Dialyzer's documentation for options. Note that the \"race_conditions\" option is unsupported",
+        "description": "Dialyzer options to enable or disable warnings. See Dialyzer's documentation for options. Note that the \"race_conditions\" option is unsupported",
         "type": "array",
         "uniqueItems": true,
         "items": {
@@ -51,7 +50,9 @@
   "dependencies": {
     "atom-languageclient": "^0.6.4"
   },
-  "enhancedScopes": ["source.elixir"],
+  "enhancedScopes": [
+    "source.elixir"
+  ],
   "consumedServices": {
     "datatip": {
       "versions": {
@@ -102,7 +103,6 @@
     }
   },
   "scripts": {
-    "prepare":
-      "cd elixir-ls && mix deps.get && mix release -o ../elixir-ls-release"
+    "prepare": "cd elixir-ls && mix deps.get && mix release -o ../elixir-ls-release"
   }
 }
