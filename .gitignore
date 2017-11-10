@@ -1,4 +1,6 @@
 .DS_Store
 npm-debug.log
 node_modules
-elixir-ls-release
+
+# Unfortunately, apm does not allow publishing untracked files, so we need to commit our build artifacts
+elixir-ls-release/debugger-*.ez
