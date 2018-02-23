@@ -21,7 +21,6 @@ Supported ElixirLS features:
 Unsupported features:
 
 - Debugger
-- Snippets in auto-complete
 - Output log
 
 ## Building and running
