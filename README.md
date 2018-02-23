@@ -6,10 +6,10 @@ Provides an [Atom IDE](https://ide.atom.io/) extension for Elixir, powered by [E
 
 ![Screenshot](https://raw.githubusercontent.com/JakeBecker/ide-elixir/master/images/screenshot.png)
 
-## How to install the latest published version
+## Installation
 
-- Install Elixir 1.6 (`brew install elixir --HEAD` until officially released)
-- `apm install atom-ide-ui`
+- Install Elixir >= 1.6
+- Either `apm install atom-ide-ui` OR `apm install nuclide`
 - `apm install ide-elixir`
 
 ## Features
