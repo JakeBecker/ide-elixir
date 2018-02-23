@@ -6,6 +6,12 @@ Provides an [Atom IDE](https://ide.atom.io/) extension for Elixir, powered by [E
 
 ![Screenshot](https://raw.githubusercontent.com/JakeBecker/ide-elixir/master/images/screenshot.png)
 
+## Installation
+
+- Install Elixir >= 1.6
+- Either `apm install atom-ide-ui` OR `apm install nuclide`
+- `apm install ide-elixir`
+
 ## Features
 
 Supported ElixirLS features:
