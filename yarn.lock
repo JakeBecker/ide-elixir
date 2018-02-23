@@ -2,12 +2,17 @@
 # yarn lockfile v1
 
 
-atom-languageclient@^0.6.4:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.6.7.tgz#d189c7f5c4cb225c02ebb177bf9e8dbf32a25af5"
+atom-languageclient@^0.8.2:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/atom-languageclient/-/atom-languageclient-0.8.3.tgz#8ce3c758051783a53a1d388896e7d99d4fc8e10c"
   dependencies:
-    vscode-jsonrpc "^3.4.1"
+    fuzzaldrin-plus "^0.6.0"
+    vscode-jsonrpc "^3.5.0"
 
-vscode-jsonrpc@^3.4.1:
+fuzzaldrin-plus@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/fuzzaldrin-plus/-/fuzzaldrin-plus-0.6.0.tgz#832f6489fbe876769459599c914a670ec22947ee"
+
+vscode-jsonrpc@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/vscode-jsonrpc/-/vscode-jsonrpc-3.5.0.tgz#87239d9e166b2d7352245b8a813597804c1d63aa"
