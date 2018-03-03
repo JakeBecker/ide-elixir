@@ -23,6 +23,8 @@ Supported ElixirLS features:
 - Code completion
 - Code formatter (requires Elixir >= 1.6)
 - Signature help
+- Find references to functions and modules (Thanks to @mattbaker)
+- Quick symbol lookup in file (Thanks to @mattbaker)
 
 Unsupported features:
 
