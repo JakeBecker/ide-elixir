@@ -115,6 +115,6 @@
     }
   },
   "scripts": {
-    "prepare": "cd elixir-ls && mix deps.get && mix release -o ../elixir-ls-release"
+    "prepare": "cd elixir-ls && mix deps.get && mix elixir_ls.release -o ../elixir-ls-release"
   }
 }
