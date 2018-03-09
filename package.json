@@ -55,6 +55,11 @@
         "type": "string",
         "description": "Subdirectory containing Mix project if not in the project root",
         "minLength": 1
+      },
+      "elixirLS.fetchDeps": {
+        "type": "boolean",
+        "description": "Automatically fetch project dependencies when compiling",
+        "default": true
       }
     }
   },
