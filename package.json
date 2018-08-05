@@ -64,8 +64,8 @@
     }
   },
   "dependencies": {
-    "atom-languageclient": "^0.9.3",
-    "shelljs": "^0.8.1"
+    "atom-languageclient": "^0.9.5",
+    "shelljs": "^0.8.2"
   },
   "enhancedScopes": [
     "source.elixir"
